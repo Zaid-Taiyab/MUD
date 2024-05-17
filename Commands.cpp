@@ -1,7 +1,3 @@
-//
-// Created by etrickel on 10/21/2023.
-//
-
 #include "Commands.h"
 #include <sstream>
 
