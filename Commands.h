@@ -16,5 +16,4 @@ public:
     string getCommands();
 };
 
-
 #endif
