@@ -106,9 +106,6 @@ bool Commands::doCommand(World *myWorld, Player *player, string input){
         // CODE: use the attack method found in the World class
         //cout<<"Guardian"<<endl;
         myWorld->performAttack(player);
-        if(player->getLocation()==10418){
-            cout<<"You have killed the Guardian.";
-        }
     }
     if (input == "exit" || input == "quit" || input == "q") {
         cout << "Exiting game loop. Goodbye!\n";
