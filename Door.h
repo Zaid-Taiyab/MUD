@@ -39,5 +39,6 @@ public:
     int getExitRoomId(map<string, int> portals);
     
 };
+
 #endif
 
