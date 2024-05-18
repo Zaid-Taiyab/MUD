@@ -27,8 +27,6 @@
 
 void Door::loadJson(int minRoomIdForArea, json doorJson){        
     // CODE: check which one is not null and use it.
-    //exitToRoomId == -1;
-    //exitToPortal = "";
     if(doorJson["portal"].is_null()){
         exitToRoomId=doorJson["to"].int_value()+minRoomIdForArea;
     }
